@@ -1,7 +1,7 @@
 var getHTML = require('./makingmodule');
 
 function printReverse(html) {
- console.log(html.split("").reverse().join());
+ console.log(html.split("").reverse().join(""));
 }
 
 var requestOptions = {
